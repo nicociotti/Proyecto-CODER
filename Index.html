@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="./CSS/bootstrap.css">
+    <link rel="stylesheet" href="./CSS/Estilos.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+</head>
+<a name="inicio"></a>
+
+</head>
+
+<body>
+
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">BIENVENIDOS A MI PRIMERA WEB</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="fs-5 text-primary fw-bold">NICO CIOTTI</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./Index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Sobre mí.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Mis hobbies.html">Mis hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Galería.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Pages/Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- SLIDER DE IMAGENES-->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./Assets/Imágenes/Banner.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/Imágenes/Imagen 1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./Assets/Imágenes/Imagen 4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+        <img src="./Assets/Imágenes/Imagen 3.jpg" class="d-block w-100" alt="...">
+    </div>
+
+
+
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto"
+        id="intro">
+        <h1 class="p-3 fs-2 border-top border-3">Bienvenidos a este experimento, mi primera web en la que estoy
+            trabajando gracias a <span class="text-primary">CODER HOUSE</span></h1>
+        <p class="p-3  fs-4">
+            <span class="text-primary">En esta Web</span> te voy a contar algunas cosas sobre mí y mi familia como
+            parte de la práctica que se propone en este curso. Con el tiempo, espero adquirir práctica y nuevos
+            conocimientos para aventurarme a diagramar otro tipo de páginas webs más complejas y con otras
+            temáticas.
+        </p>
+        <br>
+    </section>
+
+    <br>
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="./Assets/Imágenes/logo.png" alt="Logo Nico">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>CONTACTO</h2>
+                <p>Melvin Jones 1320 | Rafaela (2300) - Santa Fe (Argentina)</p>
+                <p>nicociotti@hotmail.com | (54) 3492 338383</p>
+            </div>
+            <div class="box">
+                <h2>MIS REDES</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/nicociotti" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/nico_ciotti/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/nico-ciotti/" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>Gracias por tu visita!</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

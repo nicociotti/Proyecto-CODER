@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <link rel="stylesheet" href="../CSS/Estilos.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+        <p class="text-light mb-0 p-2 fs-6">BIENVENIDOS A MI PRIMERA WEB</p>
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light p-3" id="menu">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="fs-5 text-primary fw-bold">NICO CIOTTI</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../Index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Sobre mí.html">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Mis hobbies.html">Mis hobbies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Galería.html">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <p></p>
+    <section class="mb-4">
+
+        <h2 class="h1-responsive font-weight-bold text-center my-4">CONTACTAME!</h2>
+        <p class="text-center w-responsive mx-auto mb-5">A continuación podés dejarme tus datos y el mensaje para que te
+            responda!.</p>
+
+        <div class="row">
+
+            <div class="col-md-9 mb-md-0 mb-5">
+                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="name" name="name" class="form-control">
+                                <label for="name" class="">Nombre</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="md-form mb-0">
+                                <input type="text" id="email" name="email" class="form-control">
+                                <label for="email" class="">E-mail</label>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <div class="md-form">
+                                <textarea type="text" id="message" name="message" rows="2"
+                                    class="form-control md-textarea"></textarea>
+                                <label for="message">Mensaje</label>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </form>
+
+                <div class="text-center text-md-left">
+                    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                </div>
+                <div class="status"></div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <ul class="list-unstyled mb-0">
+                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                        <p>Melvin Jones 1320, CP 2300, Rafaela, Santa Fe</p>
+                    </li>
+
+                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                        <p>+54 3492-338383</p>
+                    </li>
+
+                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                        <p>nicociotti@hotmail.com</p>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="#">
+                        <img src="../Assets/Imágenes/logo.png" alt="Logo Nico">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2>CONTACTO</h2>
+                <p>Melvin Jones 1320 | Rafaela (2300) - Santa Fe (Argentina)</p>
+                <p>nicociotti@hotmail.com | (54) 3492 338383</p>
+            </div>
+            <div class="box">
+                <h2>MIS REDES</h2>
+                <div class="red-social">
+                    <a href="https://www.facebook.com/nicociotti" class="fa fa-facebook"></a>
+                    <a href="https://www.instagram.com/nico_ciotti/" class="fa fa-instagram"></a>
+                    <a href="https://www.linkedin.com/in/nico-ciotti/" class="fa fa-linkedin"></a>
+                </div>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>Gracias por tu visita!</small>
+        </div>
+    </footer>
+</body>
+
+</html>
